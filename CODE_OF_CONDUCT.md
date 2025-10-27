@@ -1,4 +1,4 @@
-# Code of Conduct
+[[# Code of Conduct
 
 ## Our Pledge
 
@@ -93,3 +93,4 @@ harassment or threats to anyone's safety, we may take action without notice.
 This Code of Conduct is adapted from the Contributor Covenant, version 1.4,
 available at
 <https://www.contributor-covenant.org/version/1/4/code-of-conduct/>
+](https://github.com/a2ax402/a2a-x402)](https://github.com/a2ax402/a2a-x402)
