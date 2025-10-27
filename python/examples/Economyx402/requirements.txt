@@ -1,0 +1,7 @@
+# BSC x402 Demo Dependencies
+x402-a2a
+a2a-sdk
+eth-account>=0.13.7
+web3>=6.0.0
+flask>=3.0.0
+pydantic>=2.0.0

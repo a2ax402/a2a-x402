@@ -1,0 +1,51 @@
+╔══════════════════════════════════════════════════════════════╗
+║        🚀 DEPLOY REAL CONTRACT TO BSC MAINNET 🚀             ║
+╚══════════════════════════════════════════════════════════════╝
+
+⚠️  REAL MONEY DEPLOYMENT - BE CAREFUL!
+
+Copy and paste these commands:
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+# 1. Install
+pip install web3 eth-account
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+# 2. Set your REAL mainnet private key
+$env:PRIVATE_KEY="0xYOUR_REAL_KEY"
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+# 3. Go to contracts folder
+cd C:\Users\Kysmi\Desktop\a2a\a2a-x402-main\python\examples\bsc-demo\contracts
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+# 4. DEPLOY TO MAINNET (REAL!)
+python deploy_now.py mainnet
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+⚠️  REQUIREMENTS:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+✅ Have REAL BNB in your wallet
+✅ Not testnet BNB!
+✅ Buy from Binance or use existing BNB
+✅ Need ~0.001 BNB minimum
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+💰 COST:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+~$0.30-0.50 USD worth of BNB
+Permanent on blockchain!
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+READY? Run the 4 commands above! 🚀
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━

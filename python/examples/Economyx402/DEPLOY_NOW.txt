@@ -1,0 +1,71 @@
+═══════════════════════════════════════════════════════════════
+🚀 DEPLOY YOUR CONTRACT TO BSC - STEP BY STEP
+═══════════════════════════════════════════════════════════════
+
+IMMEDIATE STEPS TO DEPLOY:
+
+1. SET YOUR PRIVATE KEY
+   
+   Windows PowerShell:
+   $env:PRIVATE_KEY="0xYourPrivateKeyHere"
+   
+   Linux/Mac:
+   export PRIVATE_KEY=0xYourPrivateKeyHere
+
+2. GET BNB FOR GAS (Get test BNB first!)
+   
+   Testnet Faucet: https://testnet.bnbchain.org/faucet-smart
+   - Connect your wallet
+   - Request test BNB
+   - You need at least 0.001 test BNB
+
+3. INSTALL DEPENDENCIES
+   
+   pip install web3 eth-account
+
+4. RUN DEPLOYMENT
+   
+   cd python/examples/bsc-demo/contracts
+   python deploy_now.py testnet
+   
+   For mainnet:
+   python deploy_now.py mainnet
+
+═══════════════════════════════════════════════════════════════
+WHAT YOU'LL GET AFTER DEPLOYMENT:
+═══════════════════════════════════════════════════════════════
+
+✅ Contract Address: 0x... (save this!)
+✅ Transaction Hash: 0x...
+✅ BscScan Link: https://bscscan.com/address/0x...
+✅ Deployment Info: Saved to deployment.json
+✅ Cost: ~$0.30-0.50 (testnet is free)
+
+═══════════════════════════════════════════════════════════════
+QUICK COPY-PASTE COMMANDS:
+═══════════════════════════════════════════════════════════════
+
+# 1. Install dependencies (run once)
+pip install web3 eth-account
+
+# 2. Set your key
+$env:PRIVATE_KEY="0xYOUR_KEY"
+
+# 3. Deploy to testnet
+cd python\examples\bsc-demo\contracts
+python deploy_now.py testnet
+
+# 4. When ready for mainnet
+python deploy_now.py mainnet
+
+═══════════════════════════════════════════════════════════════
+AFTER DEPLOYMENT:
+═══════════════════════════════════════════════════════════════
+
+1. Copy your contract address from output
+2. Update server/agents/facilitator.py with the address
+3. View contract on BscScan
+4. Test with small transaction
+5. Ready to handle x402 payments!
+
+═══════════════════════════════════════════════════════════════

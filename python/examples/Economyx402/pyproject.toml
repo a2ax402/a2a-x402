@@ -1,0 +1,26 @@
+[project]
+name = "bsc-demo"
+version = "1.0.0"
+description = "BSC x402 Payment Demo for A2A"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "x402-a2a",  # Local A2A x402 library
+    "eth-account>=0.13.7",
+    "web3>=6.0.0",  # For BSC interaction
+    "a2a-sdk",
+    "flask>=3.0.0",  # For merchant server
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.4.1",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]

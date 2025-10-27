@@ -1,0 +1,45 @@
+═══════════════════════════════════════════════════════════════
+    ❌ PIP ERROR - FIX THIS!
+═══════════════════════════════════════════════════════════════
+
+If you see "pip is not recognized", use one of these:
+
+═══════════════════════════════════════════════════════════════
+OPTION 1: Use python -m pip (Recommended)
+═══════════════════════════════════════════════════════════════
+
+python -m pip install web3 eth-account
+
+═══════════════════════════════════════════════════════════════
+OPTION 2: Use python3
+═══════════════════════════════════════════════════════════════
+
+python3 -m pip install web3 eth-account
+
+═══════════════════════════════════════════════════════════════
+OPTION 3: Check if Python is installed
+═══════════════════════════════════════════════════════════════
+
+Try:
+python --version
+
+If that doesn't work, install Python:
+https://www.python.org/downloads/
+
+═══════════════════════════════════════════════════════════════
+ONCE PIP WORKS, RUN THESE COMMANDS:
+═══════════════════════════════════════════════════════════════
+
+# 1. Install
+python -m pip install web3 eth-account
+
+# 2. Set private key
+$env:PRIVATE_KEY="0xYOUR_KEY"
+
+# 3. Navigate
+cd C:\Users\Kysmi\Desktop\a2a\a2a-x402-main\python\examples\bsc-demo\contracts
+
+# 4. Deploy!
+python deploy_now.py mainnet
+
+═══════════════════════════════════════════════════════════════
